@@ -67,6 +67,7 @@ Then reload plugins in the Hermes desktop app (Ctrl+K → "Reload desktop plugin
 ## Notes
 
 - Bot-to-bot delivery is per-invocation (the receiving bot sees the message in its inbox when it next runs); live interrupt of a mid-conversation bot is upstream future work.
+- [Goal-driven multi-agent handoffs](docs/goal-driven-handoffs.md) describes a requested improvement for carrying assigned work across replies and machines.
 - Avatar/pet customizations are stored in plugin storage; the profile itself stays clean.
 
 ## License
